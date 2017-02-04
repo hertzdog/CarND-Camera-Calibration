@@ -26,5 +26,6 @@ Then I decided to comment some code on the notebook where QT was required and tr
 
 The code as is is not working on Mac: the windows showing the image never close. I found the soulution on the ubiquitous [stackoverflow]( http://stackoverflow.com/questions/6116564/destroywindow-does-not-close-window-on-mac-using-python-and-opencv)
 
+I printed the pattern given on OpenCV: http://docs.opencv.org/2.4/_downloads/pattern.png
 
-Waiting for the paper with the chessboard :)
+Things were not working, until I discovered the chessboard is not 8 by 6, but 9 by 6. Changed the code accordingly :)
